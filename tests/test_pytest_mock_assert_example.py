@@ -1,8 +1,9 @@
-
 from unittest.mock import Mock, call
+
 
 def get_total_price(price, quantity):
     return price * quantity
+
 
 def test_get_total_price():
     # Create a mock object
@@ -20,4 +21,3 @@ def test_get_total_price():
     my_mock.subtract.assert_any_call(10, 2)
     my_mock.assert_has_calls([call.add(5, 5), call.subtract(10, 2)], any_order=True)
     my_mock.some_method.assert_not_called()
-
