@@ -1,5 +1,5 @@
-# pytest-mock-assert
-This repo contains the sample code for the article - 
+# Pytest Mock Assert Called Example
+This repo contains the sample code for the article - [What Are Pytest Mock Assert Called Methods and How To Leverage Them](https://pytest-with-eric.com/pytest-best-practices/pytest-mock-assert-called/)
 
 This project explains pytest-mock assert capabilities of verifying the interactions and behavior of your code, isolating units of code, and ensuring that your code functions correctly while reducing dependencies on external services during testing
 
